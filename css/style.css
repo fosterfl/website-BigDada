@@ -2355,17 +2355,17 @@ ol.type li {
 	margin-left: 20px;
 	text-transform: uppercase;
 }
-ol.type li a {
+ol.type li span {
 	background: transparent;
 	border: 2px solid #E87E04;  /*  #526cbb */
 	color: #E87E04; /*  #526cbb */
 	padding: 10px 20px;
 }
-ol.type li a.active {
+ol.type li span.active {
 	background: #E87E04;   /*  #526cbb */
-	color: #fff;
+	color: #fff; 
 }
-ol.type li a:hover {
+ol.type li span:hover {
 	background: #E87E04;   /*  #526cbb */
 	color: #fff;
 }

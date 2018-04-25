@@ -407,7 +407,7 @@
 	$(window).load(function() {
 			var $container = $('.portfolio-items');
 
-			$('.cat a').click(function() {
+			$('.cat span').click(function() {
 					$('.cat .active').removeClass('active');
 					$(this).addClass('active');
 					var i = 0;
