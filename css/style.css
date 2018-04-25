@@ -2115,15 +2115,7 @@ form label {
 }
 
 
-/* Highlights Portfolio items by skill*/
-.skill-highlight {
-    background-color: #5dade2;
-  position:relative;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
 
-}
 
 .gtco-accordion .gtco-accordion-heading .icon {
   position: absolute;
@@ -2338,7 +2330,7 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 
-/* Portfolio Section */
+/* Portfolio Section - "skill" selection spans */
 #portfolio {
 	padding: 10px 0;
 	background: #f6f6f6;
@@ -2363,12 +2355,29 @@ ol.type li span {
 }
 ol.type li span.active {
 	background: #E87E04;   /*  #526cbb */
-	color: #fff; 
+	color: #fff;
 }
 ol.type li span:hover {
 	background: #E87E04;   /*  #526cbb */
 	color: #fff;
 }
+/* Highlights FAQ/Portfolio items by skill*/
+.skill-highlight {
+  background-color: #66ffcc;
+  position:relative;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+/* adds category descriptions for "skill" selections */
+.skill-description {
+  padding-top: 20px;
+  padding-bottom: 10px;
+	text-align: center;
+  font-style: italic;
+}
+
 .isotope-item {
 	z-index: 2
 }

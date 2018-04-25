@@ -422,10 +422,47 @@
 						x[i].classList.add("skill-highlight");
 					}
 
+					/*  "skill" descriptions under buttons with default text for "clear all"  */
+					var text;
+					switch(selector) {
+							case "ux":
+									text = "User experience (UX) and interface design encompasses projects which focused on the user's experience with the project.";
+									break;
+							case "video":
+									text = "Video and illustration projects showcase the variety of video production, illustration, art design, and creative projects we have been involved with over the years.";
+									break;
+							case "event":
+									text = "Event Planning highlights the concerts, large events, and peripheral activities we have planned.";
+									break;
+							case "clothing":
+									text = "Clothing design focuses on the success of several designs which made their way into Hollywood films and enjoyed large market success in the US and abroad.";
+									break;
+							case "research":
+									text = "Data Scientist & Reseatch highlights projects where rigorous scientific method and data collection were used to answer the hypotheses posed by the funding organization.";
+									break;
+							case "product":
+									text = "Product Design highlights projects where the design of the product was crucial to its success.";
+									break;
+							case "interactive":
+									text = "Interactive Design highlights projects with interactive elements for users to engage with the project.";
+									break;
+							case "game":
+									text = "Game Design highlights computer games designed and executed.";
+									break;
+							default:
+									text = "Select a catergory to see related projects.";
+					}
+
+					var i = 0;
+					var x2 = document.getElementById("descriptors");
+					x2.innerHTML = text;
+
 					return false;
 			});
 
 	});
+
+
 
 
 
